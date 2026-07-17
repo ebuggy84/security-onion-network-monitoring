@@ -1,0 +1,19 @@
+# Editor / temp
+*.swp
+*.swo
+*~
+*.bak
+
+# Raw scan output / SIEM exports — commit curated .md writeups instead
+*.nessus
+*.csv
+*.jsonl
+*.xml          # nmap -oX and similar
+*.gnmap
+*.nmap
+*.pcap
+*.pcapng
+
+# OS cruft
+.DS_Store
+Thumbs.db
